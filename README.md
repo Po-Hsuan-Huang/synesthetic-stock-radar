@@ -37,7 +37,7 @@ Traditional stock charts force you to interpret abstract numbers. **Synesthetic 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/synesthetic-stock-radar.git
+git clone https://github.com/Po-Hsuan-Huang/synesthetic-stock-radar.git
 cd synesthetic-stock-radar
 
 # Install dependencies
@@ -73,6 +73,55 @@ Then open your browser to: **http://127.0.0.1:8050**
 ### Learn Tab
 - Cycle through educational content about post-scarcity economics
 - Understand the principles behind Rule of 40
+
+## 📸 Visual Demonstrations
+
+### 🌌 Radar View - The Synesthetic Experience
+
+![Radar View](images/radar_view.png)
+
+**What you're seeing:**
+- Each bubble is a stock with **size proportional to market cap**
+- **Color coding**: Blue stocks are falling, yellow/orange/red are rising
+- **Bright glowing bubbles** = high Rule of 40 scores (best value stocks like NVDA, AMD)
+- Stocks are **attracted toward the center** (high Rule of 40 "value core")
+- **Hover tooltips** show comprehensive metrics including Rule of 40 breakdown
+
+**The "Sixth Sense" Effect:**
+> You can instantly spot high-value stocks (bright, glowing bubbles in the center) without reading a single number. Risky/volatile stocks appear more translucent and drift toward edges. Growth stocks move faster. Large-cap stable stocks are big, solid, slow-moving.
+
+### 📊 Rule of 40 Classic View
+
+![Rule of 40 Classic](images/rule40_classic.png)
+
+**Traditional Technical Analysis:**
+- X-axis: Operating Margin (%)
+- Y-axis: Revenue Growth (%)
+- Red dashed line: Rule of 40 frontier (where Margin + Growth = 40)
+- Bubble size: Market Cap
+- Stocks above/left of the line are strong investments
+
+### 📖 Educational Content
+
+![Learn Tab](images/learn_tab.png)
+
+**Post-Scarcity Economics:**
+- Chapter 1: The Dawn of Post-Scarcity Era
+- Chapter 2: Energy, Materials, Computation  
+- Chapter 3: Distribution, Ownership & Incentives
+- Cycle through chapters using "Next Chapter" button
+
+## 🎬 Browser Recordings
+
+Watch the Synesthetic Stock Radar in action:
+
+![Interactive Demo](images/demo_recording.webp)
+
+**Demo showing:**
+- Tab navigation between all three views
+- Hover interactions revealing detailed stock metrics
+- Smooth transitions and responsive UI
+- Real-time data visualization with 50+ stocks
 
 ## 🧠 The Philosophy
 
@@ -116,13 +165,34 @@ synesthetic-stock-radar/
 
 ## 🔮 Future Enhancements
 
-- [ ] Filter buttons (Top Gainers, Most Traded, Best Value)
-- [ ] Real-time animation with physics simulation
-- [ ] Collision detection between bubbles
-- [ ] Sector-based clustering
-- [ ] Achievement system ("Hidden Gem Finder", "Contrarian")
-- [ ] Heat map overlay for volume zones
-- [ ] Interactive gravity controls
+### Phase 1: Interactive Controls
+- [ ] **Filter Buttons**: Quick filters for Top Gainers, Most Traded, Best Value stocks
+- [ ] **Time Speed Control**: Slow-motion to observe patterns, or fast-forward
+- [ ] **Interactive Gravity**: Slider to control attraction strength toward value core
+- [ ] **Zoom Levels**: Galaxy view → Sector view → Individual stock focus
+
+### Phase 2: Advanced Physics
+- [ ] **Real-time Animation**: Smooth 60 FPS physics simulation with continuous motion
+- [ ] **Collision Detection**: Stocks bounce off each other based on volatility
+- [ ] **Sector Clustering**: Stocks group by industry with color-coded zones
+- [ ] **Orbital Mechanics**: Stocks orbit around value core based on fundamentals
+
+### Phase 3: Gamification
+- [ ] **Achievement System**:
+  - 🦅 "Eagle Eye" - Discovered a hidden gem before it trended
+  - 🎯 "Pattern Master" - Identified 3 forming clusters
+  - 🎲 "Contrarian" - Found value in volatile stocks
+  - 💎 "Gem Collector" - Tracked 10+ high Rule of 40 stocks
+- [ ] **Discovery Mode**: Highlight "hidden gems" with special effects
+- [ ] **Heat Map Overlay**: Show trading volume as temperature zones
+
+### Phase 4: Advanced Features
+- [ ] **Sector Analysis**: Filter and compare by industry sectors
+- [ ] **Historical Playback**: Replay market movements over time
+- [ ] **Portfolio Tracking**: Pin and track your portfolio stocks
+- [ ] **AI Insights**: Natural language summaries of radar patterns
+- [ ] **Mobile App**: Touch-friendly physics interactions for tablets
+- [ ] **Collaborative Mode**: Share radar views with custom annotations
 
 ## 📝 License
 
