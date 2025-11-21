@@ -1,0 +1,151 @@
+# 🌌 Synesthetic Stock Radar
+
+**Experience stocks through AI's sixth sense** - where financial data becomes intuitive physics.
+
+![Radar View](https://img.shields.io/badge/Status-Live-brightgreen) ![Python](https://img.shields.io/badge/Python-3.9+-blue) ![Dash](https://img.shields.io/badge/Framework-Dash-purple)
+
+## 🎯 What Is This?
+
+Traditional stock charts force you to interpret abstract numbers. **Synesthetic Stock Radar** translates high-dimensional financial data into immediate visual and physical properties you can *feel* - like giving humans a sixth sense for market dynamics.
+
+### The Synesthetic Mappings
+
+| Financial Metric | Physical Property | What It Means |
+|-----------------|-------------------|---------------|
+| 🔵 **Market Cap** | **Bubble Size** | Bigger companies = larger bubbles |
+| 🎨 **Price Change** | **Color** | Blue (falling) → Red (rising) |
+| ✨ **Rule of 40** | **Glow Intensity** | Brighter = better value |
+| 🌫️ **Debt Level** | **Opacity** | More transparent = higher debt |
+| 🚀 **Revenue Growth** | **Motion Speed** | Faster = higher growth |
+| 🏀 **Volatility** | **Elasticity** | Bouncier = more volatile |
+
+## ✨ Features
+
+- **🌌 Radar View**: Physics-based visualization with 50+ stocks
+- **📊 Rule of 40 Classic**: Traditional scatter plot (Operating Margin vs Revenue Growth)
+- **📖 Educational Content**: Learn about post-scarcity economics
+- **🔄 Real-time Data**: Auto-refresh every 5 minutes via Yahoo Finance API
+- **🎨 Premium UI**: Dark space theme with glassmorphism effects
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.9+
+- pip
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/synesthetic-stock-radar.git
+cd synesthetic-stock-radar
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
+```
+
+Then open your browser to: **http://127.0.0.1:8050**
+
+## 📦 Dependencies
+
+- `dash` - Web application framework
+- `plotly` - Interactive visualizations
+- `yfinance` - Yahoo Finance API wrapper
+- `pandas` - Data manipulation
+- `numpy` - Numerical computing
+- `gunicorn` - Production server
+
+## 🎮 Usage
+
+### Radar View
+- Hover over bubbles to see detailed stock metrics
+- Watch stocks naturally cluster toward high-value areas (bright glowing bubbles)
+- Spot opportunities at a glance without reading numbers
+
+### Rule of 40 Classic
+- Traditional view showing Operating Margin vs Revenue Growth
+- Stocks above the red line have strong fundamentals
+- Bubble size represents market cap
+
+### Learn Tab
+- Cycle through educational content about post-scarcity economics
+- Understand the principles behind Rule of 40
+
+## 🧠 The Philosophy
+
+> "When you can't process 12+ metrics per stock instantly, you miss patterns. When those metrics become **size, color, glow, and motion**, you see the market like an AI does."
+
+This isn't just a visualization - it's a **new sensory modality for financial data**.
+
+## 📊 Rule of 40
+
+The **Rule of 40** is a key metric for evaluating growth companies:
+
+```
+Rule of 40 = Operating Margin (%) + Revenue Growth (%)
+```
+
+- **Score ≥ 40**: Strong, balanced growth and profitability
+- **Score < 40**: May be growing too expensively or not growing enough
+
+In the radar, high Rule of 40 stocks appear as **bright, glowing bubbles** - they're the winners.
+
+## 🛠️ Technical Architecture
+
+```
+synesthetic-stock-radar/
+├── app.py                 # Main Dash application
+├── stock_api.py          # Yahoo Finance data fetching
+├── stock_physics.py      # Metric → property mappings
+├── assets/
+│   ├── dark_theme.css    # Original styling
+│   └── radar.css         # Premium dark theme
+└── requirements.txt      # Python dependencies
+```
+
+## 🎨 Visual Design
+
+- **Space-themed background** (#0a0e27)
+- **Purple gradient accents** (#667eea → #764ba2)
+- **Glassmorphism UI** panels
+- **Concentric zone circles** showing value clusters
+- **Smooth transitions** and hover effects
+
+## 🔮 Future Enhancements
+
+- [ ] Filter buttons (Top Gainers, Most Traded, Best Value)
+- [ ] Real-time animation with physics simulation
+- [ ] Collision detection between bubbles
+- [ ] Sector-based clustering
+- [ ] Achievement system ("Hidden Gem Finder", "Contrarian")
+- [ ] Heat map overlay for volume zones
+- [ ] Interactive gravity controls
+
+## 📝 License
+
+MIT License - feel free to use and modify!
+
+## 🙏 Acknowledgments
+
+- Data provided by [Yahoo Finance](https://finance.yahoo.com/) via `yfinance`
+- Built with [Dash](https://plotly.com/dash/) and [Plotly](https://plotly.com/)
+- Inspired by synesthetic data visualization principles
+
+## 🤝 Contributing
+
+Contributions welcome! Feel free to:
+- Report bugs
+- Suggest new synesthetic mappings
+- Improve the physics simulation
+- Add new visualization modes
+
+## 📧 Contact
+
+Questions? Ideas? Open an issue or reach out!
+
+---
+
+**Made with ✨ by transforming abstract data into intuitive experiences**

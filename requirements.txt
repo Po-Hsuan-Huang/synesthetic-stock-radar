@@ -1,3 +1,6 @@
 dash
 plotly
 gunicorn
+yfinance
+pandas
+numpy
